@@ -914,7 +914,16 @@ input[type="button"]:focus {
   }
   .about__visual {
     width: 335px;
+    height: auto;
   }
+  .about__qrcode {
+    position: absolute;
+    left: 36px;
+    height: 144px;
+    bottom: 0;
+    z-index: 2;
+    top: 112px;
+}
   .about__content-blurb h2 {
     font-size: 32px;
   }
@@ -929,7 +938,17 @@ input[type="button"]:focus {
   .about__visual {
     width: 290px;
     max-width: 100%;
+    height: auto;
+    left: 153px;
   }
+  .about__qrcode {
+    position: absolute;
+    left: 36px;
+    height: 144px;
+    bottom: 0;
+    z-index: 2;
+    top: 112px;
+}
 }
 .app-design {
   position: relative;
